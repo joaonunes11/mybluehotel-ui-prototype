@@ -1,0 +1,190 @@
+* {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+/* MENU DOS ESPETACULOS */
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+header {
+    display: block;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 10%;
+    left: 10px;
+    top: 10px;
+}
+h1 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+#menu_button {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color:transparent;
+	font-weight:bold;
+	padding:10px 10px;
+    font-size:60px;
+    border-radius: 100%;
+}
+#notification_button{
+    width: 15%;
+    float: right;
+	border-radius: 100%;
+    background: #e6e6e6;
+    margin-top: 4%;
+    margin-right: 1%;
+}
+#notificationimg {
+    width: 80px;
+	height: 80px;
+}
+nav {
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 89.5%;
+    overflow-y: scroll;
+}
+#espetaculoimg{
+    width: 250px;
+	height: 250px;
+}
+#espetaculo {
+    display: block;
+	background-color: #e6e6e6;
+    width: 300px;
+	height: 300px;
+    text-align: center;
+	border-radius: 100%;
+	margin-top: 40px;
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+#eventoStyle{
+    border-radius: 30px;
+    width: 750px;
+    height: 300px;
+}
+#imgEspetaculo{
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+#eventos_button{
+    background-color: #e6e6e6;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#carmen{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#bohemia{
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#severa{
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    padding: 10px;
+    width: 90%;
+  }
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+#banco-img {
+    width: 100px;
+}
+
+#ecra {
+    display: none;
+}
+
+#reservar-espetaculo{
+    margin-top: 30px;
+    display: inline;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teste{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.close{
+    font-size: 40px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+}
+
+#afirmativo{
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+#negativo{
+    margin-left: 8px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.teste{
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+.teste h1{
+    text-align: center;
+    margin-left: 0;
+}
+
+

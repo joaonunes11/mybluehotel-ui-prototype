@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> MyBlueHotel </title>
+        <link type="text/css" rel="stylesheet" href="css/jantarSheet.css"/>
+        <script type="text/javascript" src="scripts/jantar.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <header>
+            <i onclick="window.location.href='index.html'" class="fas fa-home" style="font-size:100px;padding-right: 40px; margin-left: 20px; color:white;"></i>
+            <h1>MyBlueHotel</h1>
+            <i onclick="window.location.href='calendario.html'" class="fas fa-calendar" style="font-size:100px;margin-left: 150px; color:white;"></i>
+        <nav>
+            <div id="jantarChefe">
+                <center>
+                    <button id="jantar"><img id = "jantarimg" src= "Imagens/jantar.png" alt = "jantar"><img/></button>
+                    <p>Aqui tem a oportunidade de poder licitar um jantar com o chefe de cozinha do Restaurante. Desejamos boa sorte e licite com consciência.</p>
+                    <form>
+                        <input id = "number" type="number" name="valor"  onfocus="this.value=''" >
+                        <br>
+                        <br>
+                        <a id="licite" onclick="pop()">LICITE</a>
+                    </form> 
+                </center>
+            </div>
+            <div id="teste">
+                <h2>Tem a certeza que deseja efetuar a licitação?</h2>
+                <a id = "afirmativo" class="close" onclick="pop();licitar();limpar();sucedida();">Sim</a>
+                <a id = "negativo" class="close" onclick="pop();limpar();">Não</a>
+            </div>
+            <div id="testeNegativo">
+                <h2>Esse número não é válido</h2>
+                <a id = "ok" class="close" onclick="pop();limpar();" >OK</a>
+            </div>
+            <div id="sucedida">
+                <h2>A sua licitação foi bem sucedida aguarde para saber se é o feliz contemplado</h2>
+                <a id = "ok" class="close" onclick="sucedida(); window.location.href='index.html'";>OK</a>
+            </div>
+        </nav>
+    </body>
+</html>
+
+
+
+
+
+
+

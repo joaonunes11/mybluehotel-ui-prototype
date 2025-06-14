@@ -1,0 +1,408 @@
+* {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+html {overflow-y: scroll;}
+
+/* MENU DA PISCINA */
+body {
+    height: 1730px;
+}
+
+header {
+    display: block;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 10%;
+    left: 10px;
+    top: 10px;
+}
+input[type=checkbox] {
+    transform: scale(4);
+
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+    
+}
+#menu_button {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color:transparent;
+	font-weight:bold;
+    font-size:55px;
+    border-radius: 100%;
+}
+#notification_button{
+    width: 15%;
+    float: right;
+	border-radius: 100%;
+    background: #e6e6e6
+    margin-top: 4%;
+    margin-right: 1%;
+}
+#notificationimg {
+    width: 80px;
+	height: 80px;
+}
+nav {
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 89.5%;
+    overflow-y: scroll;
+    text-align: center;
+}
+#piscinaimg{
+     width: 250px;
+	height: 250px;
+}
+#cadeira {
+    background-color: #e6e6e6;
+    width: 350px;
+	height: 350px;
+    text-align: center;
+    margin-top: 40px;
+	border-radius: 100%;
+	top: 50px;
+	font-size: 200%;
+}
+#cocktailsbtn {
+    background-color: #e6e6e6;
+    width: 350px;
+	height: 350px;
+    text-align: center;
+    margin-top: 40px;
+	border-radius: 100%;
+	top: 50px;
+	font-size: 200%;
+}
+
+#guardaSol {
+    display: block;
+	background-color: #e6e6e6;
+    width: 350px;
+	height: 350px;
+    text-align: center;
+    margin-top: 15px;
+	border-radius: 100%;
+	top: 50px;
+	font-size: 200%;
+}
+#cocktail {
+    display: block;
+	background-color: #e6e6e6;
+    width: 350px;
+	height: 350px;
+    text-align: center;
+    margin-top: 15px;
+	border-radius: 100%;
+	top: 50px;
+	font-size: 200%;
+}
+#toalha {
+	background-color: #e6e6e6;
+    width: 350px;
+	height: 350px;
+    text-align: center;
+    margin-top: 15px;
+	border-radius: 100%;
+	top: 50px;
+    font-size: 200%;
+    margin-bottom: 65px;
+}
+
+/* PISCINA */
+#cadeira_button{
+    display: inline;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+.button{
+    display: inline;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#iniciarReserva{
+    margin-top: 30px;
+    display: inline;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+
+#escolhaCadeiras{
+    display: inline;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+input{
+    margin: 15px;
+}
+/* COCKTAILS*/
+#listaCocktails1{
+    width: 100%;
+}
+#listaCocktails2{
+    width: 100%;
+}
+#listaCocktails3{
+    width: 100%;
+}
+#listaCocktails4{
+    width: 100%;
+}
+#listaCocktails5{
+    width: 100%;
+}
+#listaCocktails6{
+    width: 100%;
+}
+#listaCocktails7{
+    width: 100%;
+}
+#listaCocktails8{
+    width: 100%;
+}
+#listaCocktails9{
+    width: 100%;
+}
+#listaCocktails10{
+    width: 100%;
+}
+#listaCocktails11{
+    width: 100%;
+}
+#butoesLista{
+    width: 20%;
+    color: transparent; 
+    background-color: transparent;
+    border-color: transparent;
+    cursor: default;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#caixaCocktails{
+    margin-top: 30px;
+    display: block;
+    border: 2px solid #e6e6e6;
+    white-space: nowrap;
+    height: 700px; 
+}
+
+#numGuardaSois {
+    border: 4px solid #e6e6e6;
+}
+#result {
+    font-size: 300%;
+    margin-bottom: 1%;
+    
+}
+#reset{
+    visibility: hidden;
+    font-size: 300%;
+}
+#minusOne{
+    visibility: hidden;
+    font-size: 300%;
+    margin-bottom: 2%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    width: 90%;
+  }
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container-vertical {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    width: 90%;
+  }
+
+  h2 {
+      font-size: 50px;
+  }
+
+  li { 
+      list-style: none; 
+      height: 100px;
+    }
+
+.teste{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.close{
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+}
+
+#afirmativo{
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+#negativo{
+    margin-left: 8px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.teste{
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+.teste h1{
+    text-align: center;
+    margin-left: 0;
+}
+#afirmativo{
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+#negativo{
+    margin-left: 8px;
+    background-color: brown;
+    border-radius: 20px;
+}
+#ok{
+    margin-left: 8px;
+    background-color: deepskyblue;
+    border-radius: 20px; 
+}
+#teste{
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+#teste h1{
+    text-align: center;
+    margin-left: 0;
+}
+#testeNegativo{
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+#testeNegativo h1{
+    text-align: center;
+    margin-left: 0;
+}
+#sucedida{
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+#sucedida h1{
+    text-align: center;
+    margin-left: 0;
+
+}
+#teste{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+#testeNegativo{
+    width: 500px;
+    overflow: hidden;
+    background: #e6e6e6;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+#sucedida{
+    width: 500px;
+    overflow: hidden;
+    background: #e6e6e6;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.close{
+    font-size: 40px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+}

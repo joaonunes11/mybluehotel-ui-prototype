@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Cadeiras </title>
+        <link type="text/css" rel="stylesheet" href="css/piscinaSheet.css"/>
+        <script src="scripts/cocktails.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+<body>
+    <header>
+        <i onclick="window.location.href='piscina.html'" class="fas fa-swimmer" style="font-size:100px;padding-right: 40px; margin-left: 20px; color:white;"></i>
+        <h1>MyBlueHotel</h1>
+        <i onclick="window.location.href='calendario.html'" class="fas fa-calendar" style="font-size:100px;margin-left: 180px; color:white;"></i>
+    </header>
+    
+    
+    <nav>
+        <button id="cocktailsbtn"><img id = "piscinaimg" src= "Imagens/cocktail.png" alt = "cocktail" ><img/></button>
+                
+        <div id="caixaCocktails" onLoad="this.scroll(150, 150)">
+            <div style="margin-top: 50px;">
+                <button id="butoesLista"><img id = "listaCocktails1" src="Imagens/cocktail8.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails2" src="Imagens/cocktail2.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails3" src="Imagens/cocktail3.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails4" src="Imagens/cocktail4.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails5" src="Imagens/cocktail5.png" alt="martini" onclick="Count(this.id)"></button>
+                <div>
+                    <button style="font-size: 50px;border: 1px; margin-left: 30px;" onclick="CountPlus(1)">+</button>
+                    <label id="1" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(1)">-</button>
+                    
+                    <button style="font-size: 50px;border: 1px; margin-left: 70px;" onclick="CountPlus(2)">+</button>
+                    <label id="2" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(2)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 40px;" onclick="CountPlus(3)">+</button>
+                    <label id="3" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(3)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 70px;" onclick="CountPlus(4)">+</button>
+                    <label id="4" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(4)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 50px;" onclick="CountPlus(5)">+</button>
+                    <label id="5" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(5)">-</button>
+            </div>
+            
+            </div>
+            <div style="margin-top: 70px;" >
+                <button id="butoesLista"><img id = "listaCocktails6" src="Imagens/cocktail1.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails7" src="Imagens/cocktail6.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails8" src="Imagens/cocktail7.png" alt="martini" onclick="Count(this.id)"></button> 
+                <button id="butoesLista" ><img id = "listaCocktails9" src="Imagens/cocktail9.png" alt="martini" onclick="Count(this.id)"></button>
+                <button id="butoesLista"><img id = "listaCocktails10" src="Imagens/cocktail10.png" alt="martini" onclick="Count(this.id)"></button>
+                <span style="display: block;">
+                    <button style="font-size: 50px;border: 1px; margin-left: 20px;" onclick="CountPlus(6)">+</button>
+                    <label id="6"  style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(6)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 60px;" onclick="CountPlus(7)">+</button>
+                    <label id="7" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(7)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 60px;" onclick="CountPlus(8)">+</button>
+                    <label id="8" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(8)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 50px;" onclick="CountPlus(9)">+</button>
+                    <label id="9" style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(9)">-</button>
+
+                    <button style="font-size: 50px;border: 1px; margin-left: 50px;" onclick="CountPlus(10)">+</button>
+                    <label id="10"  style="font-size: 40px;">0</label>
+                    <button style="font-size: 50px;border: 1px;" onclick="CountMinus(10)">-</button>
+
+            </span>
+            </div>
+            
+        </div>
+        
+        
+        <form>
+            <label style="font-size: 40px; margin-left: 130px;" for="preço"> Preço:</label>
+            <textarea id="preco" disabled style="font-size: 40px; height: 40px; width: 110px;" id="preço">0 €</textarea>
+        </form>
+        
+        <button id="cadeira_button" disabled onclick="pop();">Pedir</button>
+            <div id="teste">
+                <h2>Tem a certeza que deseja efetuar o pedido?</h2>
+                <a id = "afirmativo" class="close" onclick="pop();sucedida();">Sim</a>
+                <a id = "negativo" class="close" onclick="pop();limpar();">Não</a>
+            </div>
+            <div id="sucedida">
+                <h2>O seu pedido foi bem sucedido.</h2>
+                <a id = "ok" class="close" onclick="sucedida(); window.location.href='piscina.html'";>OK</a>
+            </div>
+    </nav>
+</body>
+</html>

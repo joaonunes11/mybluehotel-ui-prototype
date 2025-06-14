@@ -1,0 +1,216 @@
+* {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+/* menu da piscina */
+
+header {
+    display: block;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 10%;
+    left: 10px;
+    top: 10px;
+}
+
+
+nav {
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 1550px;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+    
+}
+h2 {
+    font-size: 50px;
+}
+
+#menu_button {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: #E6E6E6;
+	font-weight:bold;
+	padding:10px 10px;
+    font-size:60px;
+    border-radius: 100%;
+}
+
+#notification_button{
+    width: 15%;
+    float: right;
+	border-radius: 100%;
+    background: #E6E6E6;
+    margin-top: 4%;
+    margin-right: 1%;
+}
+
+#notificationimg {
+    width: 80px;
+	height: 80px;
+}
+
+
+#jantarimg{
+     width: 350px;
+	height: 350px;
+}
+#jantar {
+    display: block;
+	background-color: #E6E6E6;
+    width: 400px;
+	height: 400px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+	border-radius: 100%;
+	top: 50px;
+    font-size: 200%;
+}
+input[type=number] {
+  width: 60%;
+  height: 100px;
+  padding: 10px 20px;
+  margin: 8px 2px;
+  border: 7px solid #62656B;
+  border-radius: 20px;
+  margin-top: 60px;
+  font-size: 50px;
+}
+input[type=submit] {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid #E6E6E6;
+  border-radius: 20px;
+  font-weight:bold;
+}
+a, form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#teste{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+#testeNegativo{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+#sucedida{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.close{
+    font-size: 40px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+}
+
+#ok{
+    font-size: 40px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block; 
+}
+
+#licite{
+  width: 60%;
+  padding: 10px 20px;
+  margin: 8px 2px;
+  border: 3px solid #E6E6E6;
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 40px;
+  background: #E6E6E6;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+#afirmativo{
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+#negativo{
+    margin-left: 8px;
+    background-color: brown;
+    border-radius: 20px;
+}
+#ok{
+    margin-left: 8px;
+    background-color: deepskyblue;
+    border-radius: 20px; 
+}
+#teste{
+    background-color: #E6E6E6;
+    border-radius: 20px;
+}
+#teste h1{
+    text-align: center;
+    margin-left: 0;
+}
+#testeNegativo{
+    background-color: #E6E6E6;
+    border-radius: 20px;
+}
+#testeNegativo h1{
+    text-align: center;
+    margin-left: 0;
+}
+#sucedida{
+    background-color: #E6E6E6;
+    border-radius: 20px;
+}
+#sucedida h1{
+    text-align: center;
+    margin-left: 0;
+
+}

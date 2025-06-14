@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> MyBlueHotel </title>
+        <link type="text/css" rel="stylesheet" href="css/espetaculosSheet.css"/>
+        <script src="scripts/functions.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <header>
+            <i onclick="window.location.href='espetaculos.html'" class="fas fa-theater-masks" style="font-size:100px;padding-right: 20px; margin-left: 20px; color:white;"></i>
+            <h1>MyBlueHotel</h1>
+            <i onclick="window.location.href='calendario.html'" class="fas fa-calendar" style="font-size:100px;margin-left: 180px; color:white;"></i>
+            <!--<button id="menu_button" type="button"><a href= "file:///C:/Users/Utilizador/Desktop/ProjIC/Home.html"></a>Menu</button>-->
+        </header>
+        <nav>
+            <div id="evento">
+                <center>
+                    <img id = "carmen" src= "Imagens/espetaculo1.jpg" alt = "espetaculo 1">
+                    <p style="font-size: 30px;">CARMEN</p>
+                    <p style="font-size: 30px;">TEATRO DA TRINDADE INATEL</p>
+                    <p style="font-size: 15px;">Carmen, uma coprodução Teatro da Trindade e Teatro Meridional, é um espetáculo biográfico e, simultaneamente, uma homenagem a uma das mais 
+                        notáveis atrizes portuguesas. Uma atriz, em palco, leva-nos numa viagem através das suas memórias, e reflexões. As vozes que a visitam, as 
+                        vozes das personagens que interpretou ao longo de quase 70 anos, insistem em não a deixar. Carmen interpela-as, dialoga com elas, consigo 
+                        própria e com o público. Fala-nos sobre a arte, sobre a vida e sobre a morte.</p>
+                    <p>Sessões:</p>
+                    <span style="display: inline;">
+                        <button style="font-size: 30px; border: 1px; font-size: 40px;" id="session1" type="button">20:00</button> 
+                        <button style="font-size: 30px; border: 1px; font-size: 40px;" id="session2" type="button">22:00</button>
+                    </span>
+                    <div id="lugaresGrid" class="grid-container"></div>
+                    <img id="ecra" style="width: 80%;" src="Imagens/screen.png" >
+                    <div>
+                        <form>
+                            <label style="font-size: 30px; margin-left: 100px;" for="preço"> Preço:</label>
+                            <textarea id="preco" disabled style="font-size: 40px; height: 45px; width: 150px;" id="preço">0 €</textarea>
+                        </form>
+                        <button id="reservar-espetaculo" style="font-size: 40px;" id="session1" type="button">Reservar</button> 
+                    </div>
+                    <div id="reservadoSucessoDiv" class="teste">
+                        <h2>Lugares reservados com sucesso!</h2>
+                        <a id = "reservadoSucesso" class="close">Okay</a>
+                    </div>
+                    <div id="temCerteza" class="teste">
+                        <h2>Tem a certeza que deseja efetuar a reserva?</h2>
+                        <a id = "afirmativo" class="close">Sim</a>
+                        <a id = "negativo" class="close">Não</a>
+                    </div>
+                </center>
+            </div>
+        </nav>
+    </body>
+</html>
